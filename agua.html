@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recanto das marias</title>
+    <title>Águas de Maria</title>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="assets/css/ponto_turistico.css">
     <link rel="stylesheet" href="assets/css/local.css">
     <link rel="stylesheet" href="assets/css/mais_visitados.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/imagens.css">
+
+    <script src="assets/js/imagens.js"></script>
 </head>
 
 <body>
     <section class="apresentacao">
-        <h1>Recanto das marias</h1>
+        <h1>Águas de Maria</h1>
         <div class="bg_img"></div>
         <div class="gradient"></div>
         <!-- <img src="images/img01.jpg" alt="imagem ponto turistico"> -->
@@ -22,23 +25,11 @@
 
     <section class="apresentacao__descricao">
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quos possimus cupiditate magni perferendis repellat expedita.
-            Est laudantium at quidem reiciendis, aspernatur, doloremque magni
-            obcaecati delectus voluptas error voluptatum culpa natus?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quos possimus cupiditate magni perferendis repellat expedita.
-            Est laudantium at quidem reiciendis, aspernatur, doloremque magni
-            obcaecati delectus voluptas error voluptatum culpa natus?
-            <br> <br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quos possimus cupiditate magni perferendis repellat expedita.
-            Est laudantium at quidem reiciendis, aspernatur, doloremque magni
-            obcaecati delectus voluptas error voluptatum culpa natus?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quos possimus cupiditate magni perferendis repellat expedita.
-            Est laudantium at quidem reiciendis, aspernatur, doloremque magni
-            obcaecati delectus voluptas error voluptatum culpa natus?
+            Situado discretamente nas proximidades de Parauapebas em uma área particular na comunidade de Vila Sanção, Águas de Maria é um retiro sereno que revela-se apenas para os mais curiosos. Neste santuário natural, os visitantes mergulham em uma experiência única, onde a vegetação natural e águas tranquilas, vindas de uma pequena cachoeira, se entrelaçam harmoniosamente.
+            Águas de Maria é um convite à contemplação e aventura, onde a natureza revela seus segredos mais profundos. As águas puras que fluem das montanhas oferecem um refúgio de tranquilidade, enquanto as áreas de descanso e chalés convidam a momentos de serenidade e reflexão em meio à exuberância natural.
+            <br><br>
+
+            Para aqueles que buscam uma experiência autêntica e enriquecedora, Águas de Maria é um tesouro a ser descoberto. Seja para uma jornada em família com momentos de lazer à beira da água ou simplesmente para absorver a energia revitalizante deste santuário natural, uma visita a Águas de Maria é uma jornada inesquecível para a alma.
         </p>
         <div class="background">
             <div class="gradient"></div>
@@ -46,30 +37,30 @@
         <!-- <img src="assets/images/img01.jpg" alt="imagem ponto turistico"> -->
     </section>
     
-    <section class="apresentacao__imagens">
+    <section class="imagens" data-translated_value="0" data-to_translate="41">
         <div class="titulo">
             <h2>Imagens</h2>
             <p class="titulo__fundo">Imagens</p>
         </div>
 
         <div class="carrossel">
-            <div class="linha__imagens">
-                <img src="assets/images/img02.jpeg" alt="imagem carro">
-                <img src="assets/images/img03.jpeg" alt="imagem carro">
-                <img src="assets/images/img04.jpg" alt="logo uepa">
+            <div class="content_item ponto">
+                <div class="img img01 fabi"></div>
             </div>
 
-            <div class="seletor">
-                <div class="seta esquerda">esquerda</div>
-                <input type="radio">
-                <input type="radio">
-                <input type="radio">
-                <input type="radio">
-                <div class="seta direita">direita</div>
+            <div class="content_item ponto">
+                <div class="img img02 fabi"></div>
+            </div>
+        
+            <div class="content_item ponto">
+                <div class="img img03 fabi"></div>
             </div>
         </div>
 
-        <img class="imagem__canto" src="assets/images/mulher_canto.png" alt="imagem fotografa canto">
+        <div class="img_dots"> <!--Simulador de controle das imagens-->
+            <span class="material-symbols-outlined prev deactivated">arrow_circle_left</span>
+            <span class="material-symbols-outlined next">arrow_circle_right</span>
+        </div>
     </section>
 
     <section class="apresentacao__local">
@@ -81,11 +72,10 @@
         <iframe
             frameborder="0" style="border:0"
             referrerpolicy="no-referrer-when-downgrade"
-            src="https://www.google.com/maps/embed/v1/place?maptype=satellite&key=AIzaSyAw-gMRBwRbYZi-a3N3b_t7AwXONh5Q1-s&q=W5FM%2BFR"
+            src="https://www.google.com/maps/embed/v1/place?maptype=satellite&key=AIzaSyAw-gMRBwRbYZi-a3N3b_t7AwXONh5Q1-s&q=4MG5%2BG8"
             allowfullscreen>
         </iframe>
 
-        
     </section>
 
     <footer>
@@ -94,17 +84,6 @@
         </div>
         <div class="fundo__cinza">
             <h2 class="titulo">Caminhos <span>&</span> trilhas</h2>
-
-            <div class="menu navegar__pagina">
-                <ul>
-                    <li class="titulo__menu">Menu</li>
-                    <li><a href="">Apresentação</a></li>
-                    <li><a href="">Descrição</a></li>
-                    <li><a href="">Imagens</a></li>
-                    <li><a href="">Localização</a></li>
-                </ul>
-            </div>
-
             <div class="menu contatos">
                 <ul>
                     <li class="titulo__menu">Contatos</li>
@@ -145,7 +124,6 @@
 
 
     <script>
-
         let sectionTeste = document.querySelector("section.mais__visitados"); // pega a section mais__visitados
         
         // pega todas as div's com a classe item
