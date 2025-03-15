@@ -31,15 +31,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 imagens_section.querySelector(".img_dots span.next").classList.remove("deactivated");
             }
 
-            if (window.innerWidth < 700) {
-                all_contents_img.forEach(content => {
-                    content.style.transform = `translateX(${newTranslateXValue*1.53}vw)`;
-                });
-            } else {
-                all_contents_img.forEach(content => {
-                    content.style.transform = `translateX(${newTranslateXValue}vw)`;
-                });
-            }
+            all_contents_img.forEach(content => {
+                content.style.transform = `translateX(${newTranslateXValue}vw)`;
+            });
         });
     });
 });
