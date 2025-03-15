@@ -261,8 +261,10 @@ section > div > aside > nav > div > a > .menu_item {
     transition: all .6s;
 }
 
+@media (min-width: 700px) {
 section > div > aside > nav > div > a > .menu_item:hover{
     filter: brightness(100%);
+}
 }
 
 section > div > aside > nav > div > a > div > .nome_item{
@@ -270,10 +272,12 @@ section > div > aside > nav > div > a > div > .nome_item{
     transition: all .7s;
 }
 
+@media (min-width: 700px) {
 section > div > aside > nav > div > a > div > .nome_item:hover{
     font-size: 1.2em;
     color: #3A5A40;
 
+}
 }
 
 section > div > aside > nav > div > a > #item1{
